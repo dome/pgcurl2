@@ -1,0 +1,2 @@
+postgresql-pgcurl-9-2:Depends=libc6 (>= 2.2.5), libcurl3 (>= 7.16.2)
+shlibs:postgresql-pgcurl-9-2:Depends=libc6 (>= 2.2.5), libcurl3 (>= 7.16.2)

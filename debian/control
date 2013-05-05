@@ -1,0 +1,14 @@
+Source: pgcurl
+Maintainer: Hannu Valtonen <hannu.valtonen@ohmu.fi>
+Section: contrib/misc
+Priority: extra
+Standards-Version: 3.6.2
+Build-Depends: postgresql-server-dev-9.2, flex | flex-old, bison, yada, libpq-dev, devscripts
+
+Package: postgresql-pgcurl-9.2
+Architecture: any
+Depends: ${postgresql-pgcurl-9-2:Depends}
+Conflicts: pgcurl
+Replaces: pgcurl
+Description: curl client functions for PostgreSQL
+
